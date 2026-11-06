@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday NEERU ❤️</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #200018, #6b164c, #180018);
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.page {
+    min-height: 100vh;
+    padding: 35px 20px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fade 1s ease;
+}
+
+.page.active {
+    display: flex;
+}
+
+@keyframes fade {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+    font-size: clamp(35px, 10vw, 65px);
+    color: #ffb6d9;
+    text-shadow: 0 0 20px #ff1493;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #ffc1df;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+.heart {
+    position: fixed;
+    bottom: -30px;
+    color: #ff4d94;
+    font-size: 25px;
+    animation: float 6s linear infinite;
+    pointer-events: none;
+    z-index: 0;
+}
+
+@keyframes float {
+    0% { transform: translateY(0) rotate(0); opacity: 0; }
+    20% { opacity: 1; }
+    100% { transform: translateY(-110vh) rotate(360deg); opacity: 0; }
+}
+
+button {
+    padding: 14px 30px;
+    margin: 15px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #ff1493, #ff69b4);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 20px #ff1493;
+    transition: .3s;
+}
+
+button:hover {
+    transform: scale(1.08);
+}
+
+.card {
+    background: rgba(255,255,255,.09);
+    border: 1px solid rgba(255,182,217,.4);
+    border-radius: 25px;
+    padding: 30px 22px;
+    width: 100%;
+    max-width: 550px;
+    box-shadow: 0 0 30px rgba(255,20,147,.2);
+}
+
+.big-heart {
+    font-size: 85px;
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}
+
+img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.footer {
+    margin-top: 30px;
+    color: #ffb6d9;
+    font-size: 13px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+<section class="page active" id="page1">
+    <div class="big-heart">❤️</div>
+    <h2>A Special Day For Someone Special</h2>
+    <h1>HAPPY BIRTHDAY<br>NEERU</h1>
+    <p>
+        Today is not just another day...
+        Today is the day someone beautiful
+        came into this world. 🌹
+    </p>
+    <button onclick="nextPage(2)">Open Your Surprise 💝</button>
+    <div class="footer">Made with love ❤️</div>
+</section>
+
+<!-- PAGE 2 -->
+<section class="page" id="page2">
+    <div class="card">
+        <h1>Dear NEERU 🌸</h1>
+        <div class="big-heart">💗</div>
+        <p>
+            May your smile always shine brighter
+            than the stars.
+            May your life be filled with happiness,
+            peace, success and endless beautiful moments.
+        </p>
+        <p>
+            You deserve all the beautiful things
+            this world has to offer.
+        </p>
+    </div>
+    <button onclick="nextPage(3)">Next Surprise 💕</button>
+</section>
+
+<!-- PAGE 3 -->
+<section class="page" id="page3">
+    <div class="card">
+        <h1>Some Beautiful Memories ✨</h1>
+        <div style="font-size:65px">🌹 🦋 💖</div>
+        <p>
+            Some people become memories.
+            Some people become lessons.
+            And some people remain special
+            no matter how much time passes.
+        </p>
+        <p>
+            Distance may change conversations,
+            but it cannot erase the moments
+            that once meant something.
+        </p>
+        <h2>NEERU, Stay Blessed Always ❤️</h2>
+    </div>
+    <button onclick="nextPage(4)">One Last Thing 💌</button>
+</section>
+
+<!-- PAGE 4 -->
+<section class="page" id="page4">
+    <div class="card">
+        <h1>One Last Message ❤️</h1>
+        <div class="big-heart">❤️</div>
+
+        <h2>Some Words From My Heart...</h2>
+
+        <p>
+            "Happy birthday my dear rose nuv ante nak apude istam a
+             neeru ninu first lo ala chusano ippudu alane chustha malli nuv vachina."
+        </p>
+
+        <p>
+           Neeru nuv akkada unna happy ga undu. 
+           Dhooram niku naku ya mana memories ki heart ki khadu,
+           Malli vastha malli kalustha bangaram.
+            
+
+        <p>
+            I don't know why things changed between us.
+            Maybe time changed, maybe situations changed,
+            or maybe life took us in different directions.
+        </p>
+
+        <p>
+            But today, on your birthday,
+            I don't want to remember the distance.
+            I just want to wish you happiness.
+        </p>
+
+        <p>
+            Even though we are not talking like before,
+            I genuinely hope you smile every day.
+            I hope you achieve everything you dream of.
+        </p>
+
+        <p>
+            No complaints. No expectations.
+            Just a heartfelt birthday wish.
+            Nuvve antav ga resi peti unte disteny a kalputhundhi ani chudham.
+        </p>
+
+        <h1>Happy Birthday NEERU 💗</h1>
+
+        <p>
+            Wherever life takes you,
+            may happiness always find you.
+            Take care of yourself. 🌹
+        </p>
+
+        <h2>Always Wishing You Well ❤️</h2>
+    </div>
+
+    <button onclick="nextPage(1)">Replay From Beginning ↻</button>
+    <div class="footer">A little website, a lot of feelings ❤️</div>
+</section>
+
+<script>
+
+// Page navigation
+function nextPage(number) {
+    document.querySelectorAll('.page').forEach(page => {
+        page.classList.remove('active');
+    });
+
+    document.getElementById('page' + number)
+        .classList.add('active');
+
+    window.scrollTo(0, 0);
+}
+
+// Floating heart animation
+function createHeart() {
+    const heart = document.createElement('div');
+    heart.className = 'heart';
+    heart.innerHTML = ['❤️','💕','💗','💖','💘'][
+        Math.floor(Math.random() * 5)
+    ];
+
+    heart.style.left = Math.random() * 100 + 'vw';
+    heart.style.animationDuration =
+        (4 + Math.random() * 5) + 's';
+
+    document.body.appendChild(heart);
+
+    setTimeout(() => heart.remove(), 9000);
+}
+
+setInterval(createHeart, 350);
+
+</script>
+
+</body>
+</html>
